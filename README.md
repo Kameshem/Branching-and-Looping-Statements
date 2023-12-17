@@ -49,4 +49,31 @@ public static void main(String[] args) {
  
     }
 }
-5)
+5)Write a java program to print the bellowed pattern 
+55555
+54444
+54333
+54322
+54321
+import java.util.Scanner;
+public class Main{
+ 
+     public static void main(String []args){
+       Scanner obj=new Scanner(System.in);
+       int f,i,j;
+       System.out.println("Enter number of rows");
+       f=obj.nextInt();
+     
+       for(i=f;i>=1;i--)
+       {
+           for(j=f;j>=1;j--)
+           {
+               System.out.print(i>j?i:j)
+           }
+           System.out.println();
+       }
+     
+     
+     }
+}
+
